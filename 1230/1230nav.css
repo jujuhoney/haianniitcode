@@ -1,0 +1,57 @@
+.nav{
+    margin:100px auto;
+    width:700px;
+    height:36px;
+    background:#643519;
+    position:relative;
+    text-align:center;
+    line-height:36px;
+    font-size:12px;
+}
+li{
+    list-style: none;
+    float:left;
+}
+.main>li{
+    width:150px;
+    color:#eee;
+    font-size:14px;
+}
+.main span{
+    display:inline-block;
+    width:7px;
+    height:7px;
+    background:url(../images/down-icon.png) no-repeat;
+    margin-left:18px;
+}
+.box_info{
+    width: 110px;
+    border: 1px solid #643519;
+    display:none;
+    position:absolute;
+    color:#643519;
+    padding:0;
+    margin-left:20px;
+}
+.box_info li{
+    color: #643519;
+    cursor: pointer;
+    font-size:13px;
+    width:100%;
+}
+.box_info li:hover{
+    background: #643519;
+    color: #fff;
+}
+/*图标向上旋转*/
+.hover-up{
+    transition-duration: .5s;
+    transform: rotate(180deg);
+    -webkit-transform: rotate(180deg);
+}
+/*图标向下旋转*/
+.hover-down{
+    transition-duration: .5s;
+    transform: rotate(0deg);
+    -webkit-transform: rotate(0deg);
+}

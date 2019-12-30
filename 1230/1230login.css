@@ -1,0 +1,44 @@
+html, body{
+    width:100%;
+    height:100%;
+    margin: 0;
+    padding: 0;
+
+
+}
+body{
+    background: url("newyork.jpg");
+    background-size: 100%;
+}
+
+
+.outdiv{
+    height: 200px;
+    width: 350px;
+    margin: auto auto;
+    /* background-color: black; */
+    margin-top: 250px;
+    border: 1px solid black;
+}
+.loginname {
+    height: 20px;
+    width: 300px;
+    margin: 0 auto;
+}
+.password{
+    height: 20px;
+    width: 300px;
+    margin: 0 auto;
+}
+.submitbutton{
+    height: 50px;
+    width: 50px;
+    margin: 0 auto;
+
+}
+.description{
+    height: 80px;
+    line-height: 80px;
+    text-align: center;
+
+}
