@@ -2,11 +2,19 @@
     margin:100px auto;
     width:700px;
     height:36px;
-    background:#643519;
+    background:#fc5ee7;
     position:relative;
     text-align:center;
     line-height:36px;
     font-size:12px;
+}
+body{
+    background: url("zyl.jpg");
+    background-size: 100%;
+}
+a{
+    text-decoration: none;
+    color: #eee;
 }
 li{
     list-style: none;
@@ -26,21 +34,21 @@ li{
 }
 .box_info{
     width: 110px;
-    border: 1px solid #643519;
+    border: 1px solid #fc5ee7;
     display:none;
     position:absolute;
-    color:#643519;
+    color:#fc5ee7;
     padding:0;
     margin-left:20px;
 }
 .box_info li{
-    color: #643519;
+    color: #fc5ee7;
     cursor: pointer;
     font-size:13px;
     width:100%;
 }
 .box_info li:hover{
-    background: #643519;
+    background: #fc5ee7;
     color: #fff;
 }
 /*图标向上旋转*/
